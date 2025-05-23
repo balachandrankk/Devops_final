@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/balachandrankk/Devops_final.git'
+                git branch: 'master', url: 'https://github.com/balachandrankk/Devops_final.git'
             }
         }
 
