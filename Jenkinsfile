@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/balachandrankk/guvi_dev_final.git'
+                git 'https://github.com/balachandrankk/Devops_final.git'
             }
         }
 
@@ -23,7 +23,7 @@ pipeline {
 
         stage('Verify') {
             steps {
-                sh 'curl -I http://localhost:8081'  
+                sh 'curl -I http://localhost:8085'  
             }
         }
     }
