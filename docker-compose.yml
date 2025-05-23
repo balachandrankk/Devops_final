@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: nginx:alpine
+    image: library:latest
     ports:
       - "8085:80"
     volumes:
